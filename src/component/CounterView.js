@@ -7,10 +7,10 @@ const CounterView = () => {
   const dispatch = useDispatch();
 
   const handleIncrement = () => {
-    dispatch(increment(5));
+    dispatch(increment(10));
   };
   const handleDecrement = () => {
-    dispatch(decrement(10));
+    dispatch(decrement(5));
   };
   const handleReset = () => {
     dispatch(reset());
