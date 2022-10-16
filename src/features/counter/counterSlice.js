@@ -12,9 +12,9 @@ export const counterSlice = createSlice({
       if (state.count >= action.payload) {
         state.count = state.count - action.payload;
       }
-      // else {
-      //   state.count = state.count;
-      // }
+      else {
+        state.count = state.count;
+      }
     },
     reset: (state) => {
       state.count = 0;
